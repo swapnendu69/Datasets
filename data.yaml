@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Pencurian', 'Penembakan', 'Perkelahian', 'Vandalisme']
+
+roboflow:
+  workspace: faisal-ali-muhamad
+  project: crime_detection_v3
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/faisal-ali-muhamad/crime_detection_v3/dataset/2
